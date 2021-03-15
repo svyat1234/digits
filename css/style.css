@@ -1,0 +1,506 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: 'Halyard Text', sans-serif;
+}
+
+header{
+    font-size: 16px;
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header__block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.more_info__img{
+    max-width: 10px;
+}
+
+.header__link{
+    text-decoration: none;
+    color: #1E266D;
+    margin-right: 40px;
+}
+
+.header__links{
+    display: flex;
+    align-items: center;
+}
+
+.header__nav{
+    margin-left: 85px;
+}
+
+
+.header__button{
+    padding: 10px 16px;
+    border-radius: 20px;
+    background-color: #3751FF;
+    border: none;
+    color: white;
+    outline: none;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+
+.header__button:hover{
+    background: rgb(255, 154, 188);
+    color: rgb(209, 246, 255);
+}
+
+
+
+.section__promo{
+    text-align: center;
+}
+
+.section__promo__background{
+    background: linear-gradient(180deg, rgba(242, 249, 255, 0.12) 0%, #F2F9FF 100%);
+    padding-bottom: 483px;
+}
+
+
+.section__promo__title{
+    padding-top: 144px;
+    font-size: 56px;
+    color: #1E266D;
+}
+
+.section__promo__text{
+    color: #455880;
+    font-size: 18px;
+    padding-top: 27px;
+    padding-bottom: 29px;
+}
+
+.section__promo__buttons{
+    display: flex;
+    max-width: 380px;
+    margin: auto;
+    justify-content: space-between;
+    padding-bottom: 29px;
+}
+
+.button{
+    padding: 17px 35px;
+    border-radius: 100px;
+    border: none;
+    text-decoration: none;
+}
+
+.button__digits{
+    background-color: #3751FF;
+    color: white;
+}
+
+.button__features{
+    background-color: white;
+    color: #455880;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.section__promo__img{
+    margin-top: -450px;
+}
+
+.teams__text{
+    font-size: 16px;
+    line-height: 27px;
+    color: rgba(69, 88, 128, 0.5);
+    padding-bottom: 49px;
+}
+
+.teams__block{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.section__promo__img{
+    max-width: 100%;
+}
+
+
+
+
+
+.section__help{
+    padding-bottom: 100px;
+}
+
+
+
+.title{
+    padding-top: 200px;
+    font-size: 48px;
+    text-align: center;
+    color: #1E266D;
+}
+
+.help__img{
+    margin-top: -150px;
+}
+
+.section__help__block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.help__card{
+    max-width: 405px;
+    margin: auto;;
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(69, 88, 128, 0.2);
+    max-width: 350px;
+}
+
+.help__card:not(:last-child){
+    margin-bottom: 50px;
+}
+
+.card__img{
+    margin-right: 47px;
+}
+
+.card__title{
+    color: #1E266D;
+    font-size: 22px;
+}
+
+.card__text{
+    padding-top: 30px;
+    color: #455880;
+    font-size: 18px;
+}
+
+.section__innovate{
+    background: #FFF9EA;
+    text-align: center;
+}
+
+.section__innovate__text{
+    font-size: 21px;
+    line-height: 150%;
+    text-align: center;
+    color: #455880;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.innovate__img{
+    margin-top: 50px;
+    max-width: 100%;
+}
+
+.button__innovate{
+    background: #3751FF;
+    color: white;
+}
+
+
+
+
+
+.section__reviews{
+    padding-bottom: 150px;
+}
+
+
+.section__reviews__block{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.reviews__card{
+    max-width: 28%;
+    margin: auto;
+    padding: 40px 30px;
+    border: 1px solid rgba(69, 88, 128, 0.2);
+    border-radius: 4px;
+}
+
+.reviews__card__user{
+    text-align: center;
+}
+
+.section__reviews__block{
+    margin-top: 50px;
+}
+
+.reviews__card__img{
+    margin-top: 50px;
+}
+
+.reviews__card__user__name{
+    margin-top: 20px;
+}
+
+.reviews__card__user__info{
+    margin-top: 5px;
+}
+
+.reviews__card__text{
+    font-size: 18px;
+    color: #455880;
+}
+
+.reviews__card__img__alignment{
+    margin-top: 70px;
+}
+
+
+
+.section__sub{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #3751FF;
+}
+
+.section__sub__block{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.section__sub__title{
+font-size: 48px;
+color: #FFFFFF;
+}
+
+
+.section__sub__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button__sub__img{
+    background: url(../img/iconfinder.png) no-repeat;
+    padding: 29px 29px;
+}
+
+.button__sub{
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+    font-size: 18px;
+    color: #455880;
+    font-weight: 700;
+}
+
+
+.button__sub__img{
+    background: url(../img/iconfinder.png) no-repeat;
+    background-position:left;
+    padding-right: 10px;
+}
+
+.section__sub__text{
+    margin-top: 29px;
+}
+
+.section__sub__button__text{
+    text-align: right;
+}
+
+.section__sub__text{
+    font-size: 16px;
+    color: #DFE0EB;
+}
+
+
+
+.button{
+    outline: none;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+
+
+/*все кнопки при наведении*/
+ .button:hover{
+    background: rgb(255, 154, 188);
+    color: rgb(209, 246, 255);
+ }
+
+
+ .footer{
+    margin-top: 124px;
+ }
+
+ .foooter__info__block{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 80px;
+    border-bottom: 1px solid rgba(135, 146, 161, 0.08);
+ }
+
+ .footer__site__info__text{
+    max-width: 300px;
+    margin: auto;
+    margin-top: 31px;
+    font-size: 18px;
+    color: #455880;
+ }
+
+ .footer__navigation__block{
+    display: flex;
+    align-items: flex-start;
+ }
+
+ .footer__navigation:not(:last-child){
+     margin-right: 170px;
+ }
+
+ .footer__title{
+    font-size: 22px;
+    color: #1E266D;
+    margin-bottom: 20px;
+ }
+
+ .footer__navigation__link{
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 225%;
+    color: #455880;
+    margin: 0;
+ }
+
+ .footer__contacts{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+ }
+
+ .footer__contacts__block{
+     margin-left: 30px;
+ }
+
+
+.footer__contact__link:not(:last-child){
+    margin-right: 24px;
+}
+
+.footer__policy__site{
+    font-size: 14px;
+    line-height: 27px;
+    color: rgba(69, 88, 128, 0.5);
+    text-decoration: none;
+}
+
+.footer__policy__link{
+    font-size: 14px;
+    line-height: 27px;
+    color: #455880;
+    text-decoration: none;
+}
+
+.footer__policy__link:not(:last-child){
+    margin-right: 20px;
+}
+
+.footer__policy{
+    margin-top: 53px;
+    margin-bottom: 53px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+@media(max-width:1230px){
+    .container{
+        max-width: 900px;
+        margin: auto;
+    }
+
+    .header__link{
+        margin-right: 20px;
+    }
+    .help__img{
+        width: 500px;
+    }
+    .section__help__block{
+        margin-top: 50px;
+    }
+    .footer__navigation:not(:last-child){
+        margin-right: 80px;
+    }
+}
+
+@media(max-width:920px){
+    .container{
+        max-width: 650px;
+        margin: auto;
+    }
+
+    .footer__navigation:not(:last-child){
+        margin-right: 30px;
+    }
+    .footer__site__info__text{
+        max-width: 200px;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    .header__link{
+        margin-right: 45px;
+    }
+    .header__button{
+        margin-top: 5px;
+    }
+    .section__help__block{
+        display: block;
+    }
+    .help_img{
+    
+    }
+    .section__help{
+        text-align: center;
+    }
+    .help__card__block{
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+        flex-wrap: wrap;
+    }
+    .teams__block{
+        flex-wrap: wrap;
+        max-width: 70%;
+        margin: auto;
+        justify-content: center;
+    }
+    .teams__img{
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+    .section__reviews__block{
+        display: block;
+    }
+    .reviews__card{
+        max-width: 70%;
+        margin-bottom: 50px;
+    }
+}
